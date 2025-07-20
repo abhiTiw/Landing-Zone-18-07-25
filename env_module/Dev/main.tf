@@ -5,6 +5,20 @@ module "mkrg" {
   # name = var.mrg_name
 }
 
+module "mkrg1" {
+  source = "C:/DevOps_Insider/Batch16/Terraform_module_code/Basecode_module/resource_group"
+  # msrg   = var.mrg
+  # Use the correct variable name expected by the module, for example:
+  # name = var.mrg_name
+}
+
+module "mkrg2" {
+  source = "C:/DevOps_Insider/Batch16/Terraform_module_code/Basecode_module/resource_group"
+  # msrg   = var.mrg
+  # Use the correct variable name expected by the module, for example:
+  # name = var.mrg_name
+}
+
 module "mkvnet" {
   source     = "C:/DevOps_Insider/Batch16/Terraform_module_code/Basecode_module/vnet"
   # Replace 'vnet_name' with the actual variable name expected by the vnet module
